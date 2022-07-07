@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: lightsteelblue;
+}
+
+#img {
+  width: 35%;
+  height: 35%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#app {
+  width: 100%;
+}
+
+span {
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#btn {
+  background-color: lightseagreen;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 134px;
+  height: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#btn:hover {
+  background-color: seagreen;
+}
